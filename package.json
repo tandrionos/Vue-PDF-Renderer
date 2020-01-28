@@ -1,6 +1,6 @@
 {
   "name": "vue-pdf-renderer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Vue component for rendering a PDF using the html5 embed tag.",
   "repository": {
     "type": "git",
