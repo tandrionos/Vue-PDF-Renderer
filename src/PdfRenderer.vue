@@ -22,7 +22,9 @@
             // passed back from whatever API you use.
             // Ex: You get binary data from an API call and create a new Blob. This SHOULD render that
             file: {
-                type: Object
+                validator: function(value) {
+                    return value instanceof Blob || value == null;
+                }
             }
         },
 
